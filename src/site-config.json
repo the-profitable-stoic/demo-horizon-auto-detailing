@@ -1,0 +1,512 @@
+{
+  "business": {
+    "name": "Horizon Auto Detailing",
+    "phone": "555-aut-r90",
+    "category": "auto-detailing",
+    "city": "Savannah",
+    "state": "GA"
+  },
+  "design": {
+    "preset": {
+      "id": "auto-detailing-trust-navy",
+      "categoryGroup": "auto-detailing",
+      "name": "Trust Navy",
+      "recipeFile": "auto-detailing/trust-navy.astro",
+      "colors": {
+        "primary": "#111827",
+        "primaryDark": "#030712",
+        "primaryLight": "#c4c5c9",
+        "secondary": "#0e1421",
+        "accent": "#F59E0B",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#111827",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Montserrat",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "auto-detailing/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Savannah's Auto Detailing Perfectionists",
+      "heroSubline": "Horizon Auto Detailing delivers museum-quality results for Savannah's discerning car owners. Our climate-specific treatments combat coastal corrosion while preserving your vehicle's integrity.",
+      "aboutTitle": "Precision Born From Coastal Necessity",
+      "aboutText": [
+        "Founded in 2012 after witnessing Savannah's salt air ravage classic cars, Horizon Auto Detailing combines scientific paint analysis with artisan techniques. Our team trains quarterly with marine-grade coating specialists to address the unique challenges of Lowcountry vehicle care.",
+        "We approach each vehicle like conservators restoring a historic Savannah home - identifying vulnerabilities, using archival-quality products, and documenting every millimeter. The humidity that warps downtown shutters demands equally meticulous protection for your car's interior.",
+        "As members of the Savannah Historic Vehicle Society, we sponsor youth programs teaching automotive preservation at the Ships of the Sea Museum. Every ceramic coating includes a donation to hurricane recovery efforts at the Georgia Sea Turtle Center."
+      ],
+      "valueProps": [
+        {
+          "title": "Salt Air Specialists",
+          "description": "Our proprietary 7-step corrosion barrier system outperforms factory protections against Savannah's coastal elements."
+        },
+        {
+          "title": "Microclimate Mapping",
+          "description": "Neighborhood-specific treatments account for downtown humidity variations versus beachfront salt exposure."
+        },
+        {
+          "title": "Historic District Approved",
+          "description": "The only detailing service permitted to work on vehicles displayed during Savannah Tour of Homes events."
+        },
+        {
+          "title": "Hurricane Prep Certified",
+          "description": "Emergency storm protection packages include verified water intrusion prevention for garage-kept vehicles."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Coastal Protection Assessment",
+      "ctaSubline": "Limited same-week appointments available for Forsyth Park-area residents through June."
+    },
+    "services": [
+      {
+        "slug": "coastal-ceramic-coating",
+        "name": "Coastal Ceramic Coating",
+        "shortDescription": "Five-year guaranteed protection against Savannah's salt spray and humidity.",
+        "description": "Our marine-grade ceramic coating formulation was developed specifically for vehicles exposed to Tybee Island's salt-laden breezes and downtown Savannah's relentless humidity. Unlike standard coatings that degrade in high heat, our proprietary blend expands microscopically during summer months to prevent moisture penetration.\n\nApplication begins with a pH-neutral wash using deionized water to prevent mineral deposits. We then perform paint correction under polarized lighting to identify oxidation patterns unique to coastal vehicles. The final curing process utilizes controlled humidity chambers to simulate 10 years of Savannah weather in 48 hours, ensuring complete polymerization.",
+        "process": [
+          "Step 1: Deionized water wash with Savannah tide chart-aligned rinsing technique",
+          "Step 2: Microscopic paint analysis documenting salt corrosion patterns",
+          "Step 3: Multi-stage correction using humidity-stable abrasives",
+          "Step 4: Climate-controlled ceramic application with tidal cycle curing"
+        ],
+        "benefits": [
+          "Neutralizes salt crystal formation on paint micro-pores",
+          "Self-healing properties activated by coastal humidity",
+          "Includes quarterly salinity level inspections",
+          "Matching protection for undercarriage components"
+        ],
+        "faq": [
+          {
+            "question": "How does this differ from regular ceramic coatings?",
+            "answer": "Standard ceramics fail within 18 months against Savannah's salt air. Our formula incorporates marine epoxy resins used on River Street barges, with UV stabilizers tested at the Skidaway Institute of Oceanography."
+          },
+          {
+            "question": "Will this prevent hurricane flood damage?",
+            "answer": "While not waterproof, our coating creates a hydrophobic barrier that significantly slows saltwater penetration during temporary immersion - we've documented 72-hour protection during 2017's Irma flooding."
+          }
+        ]
+      },
+      {
+        "slug": "historic-district-interior-restoration",
+        "name": "Historic District Interior Restoration",
+        "shortDescription": "Period-correct preservation for Savannah's classic car collectors.",
+        "description": "The same humidity that preserves 19th century horse carriages at the Davenport House Museum destroys modern vehicle interiors. Our archivally sound approach uses breathable leather conditioners adapted from SCAD's preservation labs and ventilation techniques perfected in Ardsley Park's historic garages.\n\nEach treatment begins with a mold spore inspection using equipment calibrated to Savannah's unique fungal profiles. We then disassemble components using techniques that won't compromise antique fasteners or fragile veneers. The final protection layer utilizes a vapor-permeable wax originally developed for the Mercer-Williams House carriage collection.",
+        "process": [
+          "Step 1: Mold speciation analysis with UGA Coastal Extension specialists",
+          "Step 2: Gentle extraction using humidity-balanced solutions",
+          "Step 3: Hand-application of microcrystalline waxes",
+          "Step 4: Climate-controlled reassembly"
+        ],
+        "benefits": [
+          "Prevents wood dash delamination in un-airconditioned garages",
+          "Color-matches faded materials to original Savannah showroom specs",
+          "Includes seasonal humidity adjustment service",
+          "Approved by Historic Savannah Foundation"
+        ],
+        "faq": [
+          {
+            "question": "Can you match my 1970s Cadillac's original dealer-installed fabrics?",
+            "answer": "We maintain a textile archive with samples from former Savannah dealerships like Critz Motors. Recent projects included recreating the exact seersucker headliners once installed at Victor's on Drayton."
+          },
+          {
+            "question": "How often should interiors be retreated?",
+            "answer": "Downtown vehicles need biannual applications due to higher humidity, while Southside cars typically require annual maintenance. We provide customized schedules based on your garage's elevation relative to the water table."
+          }
+        ]
+      },
+      {
+        "slug": "hurricane-evacuation-prep",
+        "name": "Hurricane Evacuation Prep",
+        "shortDescription": "Storm-proof your vehicle before Savannah's evacuation routes open.",
+        "description": "When Chatham County's emergency management sounds the alarm, your vehicle becomes both escape pod and mobile shelter. Our hurricane prep goes beyond basic detailing to create a defensible environment against flying debris, saltwater flooding, and post-storm mold.\n\nUsing lessons learned from Matthew and Irma, we apply aerospace-grade sealants to vulnerable electrical components and install temporary barrier films tested at the Savannah River Site. The interior receives antimicrobial treatments proven effective in CDC hurricane shelters, while exterior surfaces get impact-resistant coatings that reduce flying branch damage by 83% in wind tunnel tests.",
+        "process": [
+          "Step 1: Flood zone vulnerability assessment using NOAA maps",
+          "Step 2: Critical component sealing with marine epoxy",
+          "Step 3: Temporary glass protection film installation",
+          "Step 4: Emergency contact information etching"
+        ],
+        "benefits": [
+          "Priority service when tropical storm watches are issued",
+          "Includes Georgia DOT-approved evacuation route maps",
+          "Post-storm damage documentation for insurance",
+          "Complimentary re-treatment if storm changes course"
+        ],
+        "faq": [
+          {
+            "question": "How quickly can you prep my car when a storm approaches?",
+            "answer": "Our emergency team can process 30 vehicles/day once the county declares Phase 1 alerts. Regular clients receive 24-hour priority scheduling - we activated 87 cars during 2022's near-miss hurricane."
+          },
+          {
+            "question": "Will these treatments damage my paint long-term?",
+            "answer": "All hurricane materials are designed for easy removal post-storm. We've successfully protected vehicles through six major weather events with zero lasting effects on factory finishes."
+          }
+        ]
+      },
+      {
+        "slug": "paint-correction-savannah",
+        "name": "Savannah-Specific Paint Correction",
+        "shortDescription": "Removes oxidation patterns unique to coastal Georgia vehicles.",
+        "description": "The pinkish haze on your hood isn't standard oxidation - it's a chemical reaction between factory clear coats and the sulfur compounds in Savannah's marsh air. Our correction process begins with spectrographic analysis at the Georgia Tech Savannah campus to identify these unique degradation patterns.\n\nUsing variable-grit compounds adjusted for the soft paint formulations common in Southern-built vehicles, we carefully abrade without compromising the fragile surface. The final polishing stage incorporates live oak tannin neutralizers to prevent recurring discoloration. For pre-1990s vehicles, we consult historic photos from Savannah's dealership archives to recreate period-appropriate finishes.",
+        "process": [
+          "Step 1: Paint spectroscopy with Skidaway Institute researchers",
+          "Step 2: Grit selection based on manufacturer regional formulations",
+          "Step 3: Tannin-neutralizing compound application",
+          "Step 4: UV-blocking sealant optimized for Savannah's latitude"
+        ],
+        "benefits": [
+          "Eliminates marsh gas-induced micro-pitting",
+          "Restores original dealer-applied finishes",
+          "Includes quarterly touch-up service",
+          "Color-matches to historic Savannah dealership samples"
+        ],
+        "faq": [
+          {
+            "question": "Why does my white car look pink after two Savannah summers?",
+            "answer": "The unique combination of marsh sulfur and live oak tannins creates a chemical reaction with certain paint pigments. We've identified 37 distinct oxidation patterns across Savannah neighborhoods."
+          },
+          {
+            "question": "Can you fix sun damage on my convertible top?",
+            "answer": "Our fabric restoration process uses UV inhibitors tested at Tybee Island's marine research station. Recent projects included preserving a 1963 Thunderbird roof originally installed at Savannah's former Ford dealership."
+          }
+        ]
+      },
+      {
+        "slug": "luxury-dealership-pre-delivery",
+        "name": "Luxury Dealership Pre-Delivery Detailing",
+        "shortDescription": "The secret preparation Savannah's high-end dealers trust.",
+        "description": "Before that new Range Rover hits the showroom floor at Critz or Genesis of Savannah, it undergoes our rigorous 217-point preparation process. We go beyond factory standards to address Lowcountry-specific concerns most dealers ignore.\n\nEvery vehicle receives undercarriage steam cleaning to remove transport salt, followed by humidity-balanced leather conditioning that prevents the telltale 'new car smell' from becoming a mold warning. Wheel wells get specialized coatings to repel the fine sand that accumulates on Highway 204. We even adjust tire pressures for optimal wear on Savannah's cobblestone streets and brick-paved squares.",
+        "process": [
+          "Step 1: Transport film removal using temperature-controlled solutions",
+          "Step 2: Undercarriage salinity testing",
+          "Step 3: Microfiber weave alignment for Savannah's pollen seasons",
+          "Step 4: Dealership-approved final inspection"
+        ],
+        "benefits": [
+          "Eliminates dealer-installed swirl marks",
+          "Pre-breaks-in brakes for downtown stop-and-go traffic",
+          "Includes complimentary first pollen wash",
+          "Meets Porsche Savannah's pre-delivery certification"
+        ],
+        "faq": [
+          {
+            "question": "Why doesn't the dealership do this themselves?",
+            "answer": "Most dealer prep focuses on national standards. Our process was developed with input from Savannah's master mechanics who understand how European cars react to our climate."
+          },
+          {
+            "question": "Can existing owners get this treatment?",
+            "answer": "Absolutely. Many clients schedule annual 're-delivery' details to maintain that showroom-fresh protection against coastal elements."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Eleanor R.",
+        "rating": 5,
+        "service": "Coastal Ceramic Coating",
+        "text": "After my Mercedes developed that pinkish haze common to Ardsley Park cars, Horizon's coating not only restored the original silver but survived two hurricane seasons without a single spot. They even noticed corrosion starting on my trunk latch that my mechanic missed.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Hurricane Evacuation Prep",
+        "text": "When Hurricane Idalia threatened, Horizon stayed open 36 hours straight prepping vehicles. Their temporary glass film saved my windshield from a flying palmetto branch on I-16. Post-storm, they documented all damage for State Farm while removing the protective coatings.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Lillian P.",
+        "rating": 5,
+        "service": "Historic District Interior Restoration",
+        "text": "The team perfectly matched the original seersucker headliner in my 1963 Thunderbird convertible, using fabric samples from when the car was sold new at Victor Chevrolet on Broughton Street. Their humidity-controlled storage recommendation prevented further mold damage in my carriage house garage.",
+        "date": "2024-11-30"
+      },
+      {
+        "name": "Theodore W.",
+        "rating": 5,
+        "service": "Luxury Dealership Pre-Delivery Detailing",
+        "text": "As a sales manager at Genesis of Savannah, I insist every vehicle gets Horizon's prep. Their attention to transport film removal and undercarriage cleaning has eliminated nearly all our PDI comebacks. Clients routinely comment how our vehicles look better than Miami showrooms.",
+        "date": "2024-10-18"
+      },
+      {
+        "name": "Clara B.",
+        "rating": 5,
+        "service": "Savannah-Specific Paint Correction",
+        "text": "My white Model Y was turning pink from marsh gases near the Moon River bridge. Horizon's correction process not only restored the color but their quarterly touch-ups have kept it pristine through two pollen seasons. Worth every penny for Savannah residents.",
+        "date": "2024-09-05"
+      },
+      {
+        "name": "Julian H.",
+        "rating": 5,
+        "service": "Coastal Ceramic Coating",
+        "text": "The ceramic coating on my fishing truck has withstood weekly trips to Tybee boat ramps for 18 months without fading. Horizon's team even applied extra protection to my trailer lights after noticing how often they're submerged in saltwater.",
+        "date": "2024-08-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Savannah Auto Detailing | Coastal Protection Specialists",
+        "description": "Horizon Auto Detailing provides Savannah-specific ceramic coatings and hurricane prep to combat salt air, humidity, and tropical storms. Serving Chatham County since 2012."
+      },
+      "about": {
+        "title": "About Horizon Auto Detailing | Savannah GA Experts",
+        "description": "Learn how our Savannah-born detailing techniques protect vehicles from coastal corrosion, hurricane damage, and historic district humidity challenges."
+      },
+      "services": {
+        "title": "Savannah Auto Detailing Services | Horizon Specialists",
+        "description": "Climate-specific detailing services including ceramic coatings for salt air, hurricane prep, and historic vehicle restoration in coastal Georgia."
+      },
+      "contact": {
+        "title": "Contact Horizon Auto Detailing | Savannah GA",
+        "description": "Schedule your Savannah auto detailing appointment with our coastal protection specialists. Serving Chatham County and surrounding areas."
+      },
+      "reviews": {
+        "title": "Horizon Auto Detailing Reviews | Savannah GA",
+        "description": "See why Savannah residents trust Horizon for hurricane prep, ceramic coatings, and historic vehicle preservation in coastal Georgia."
+      },
+      "service-areas": {
+        "title": "Service Areas | Horizon Auto Detailing Savannah",
+        "description": "Horizon serves Savannah GA and surrounding communities with specialized auto detailing for coastal climate challenges."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Savannah",
+        "slug": "savannah-ga",
+        "state": "GA",
+        "content": "Horizon Auto Detailing is proud to serve the historic city of Savannah, offering premium auto detailing services to keep your vehicle looking its best. Whether you're driving through the scenic streets of downtown or along the coastal highways, our expert team ensures your car shines inside and out. We specialize in paint correction, ceramic coatings, and interior deep cleaning to protect your investment from Savannah's humid climate and salty coastal air.",
+        "localContext": "Savannah's charming historic district and coastal location make vehicle protection essential.",
+        "nearbyAreas": [
+          "Pooler",
+          "Port Wentworth",
+          "Garden City"
+        ]
+      },
+      {
+        "city": "Pooler",
+        "slug": "pooler-ga",
+        "state": "GA",
+        "content": "Horizon Auto Detailing brings top-tier auto care to Pooler, a growing suburb with easy access to I-95. Our services help combat dust, pollen, and occasional road debris from nearby construction. From quick maintenance washes to full paint protection, we keep your vehicle looking showroom-ready for daily commutes or weekend getaways.",
+        "localContext": "Pooler's rapid development means extra road debris and construction dust.",
+        "nearbyAreas": [
+          "Savannah",
+          "Bloomingdale",
+          "Rincon"
+        ]
+      },
+      {
+        "city": "Richmond Hill",
+        "slug": "richmond-hill-ga",
+        "state": "GA",
+        "content": "Serving Richmond Hill residents with premium auto detailing services designed for coastal living. Our ceramic coatings provide exceptional protection against salt air from nearby waterways, while our interior services combat sandy beach debris. We help preserve your vehicle's value against the unique challenges of Bryan County's coastal environment.",
+        "localContext": "Proximity to the coast requires special attention to prevent salt damage.",
+        "nearbyAreas": [
+          "Savannah",
+          "Midway",
+          "Pembroke"
+        ]
+      },
+      {
+        "city": "Garden City",
+        "slug": "garden-city-ga",
+        "state": "GA",
+        "content": "Horizon Auto Detailing provides essential protection for Garden City vehicles exposed to industrial areas and port traffic. Our services target soot, diesel exhaust particles, and heavy road grime common in this manufacturing and logistics hub. We offer frequent maintenance packages to keep company fleets and personal vehicles in pristine condition.",
+        "localContext": "Industrial activity near the port creates unique cleaning challenges.",
+        "nearbyAreas": [
+          "Savannah",
+          "Port Wentworth",
+          "Thunderbolt"
+        ]
+      },
+      {
+        "city": "Bloomingdale",
+        "slug": "bloomingdale-ga",
+        "state": "GA",
+        "content": "Our Bloomingdale clients enjoy customized detailing solutions for both rural and suburban driving conditions. We address red clay stains from dirt roads, as well as highway grime from daily commutes to Savannah. Seasonal pollen protection packages help keep vehicles clean during allergy season.",
+        "localContext": "Transition area between rural and suburban environments creates unique cleaning needs.",
+        "nearbyAreas": [
+          "Pooler",
+          "Savannah",
+          "Port Wentworth"
+        ]
+      },
+      {
+        "city": "Rincon",
+        "slug": "rincon-ga",
+        "state": "GA",
+        "content": "Horizon Auto Detailing serves Rincon with specialized protection against Effingham County's mix of rural and suburban conditions. Our detailing services combat red clay roads, agricultural dust, and highway grime from commutes to Savannah. We offer convenient mobile services for busy families throughout the area.",
+        "localContext": "Growing suburb with nearby farmland creates diverse cleaning challenges.",
+        "nearbyAreas": [
+          "Guyton",
+          "Springfield",
+          "Pooler"
+        ]
+      },
+      {
+        "city": "Port Wentworth",
+        "slug": "port-wentworth-ga",
+        "state": "GA",
+        "content": "Specializing in heavy-duty cleaning for Port Wentworth vehicles exposed to port-related contaminants. Our services target industrial fallout, salt air from the Savannah River, and frequent road construction debris. From fleet vehicles to personal cars, we provide the deep cleaning and protection needed in this active industrial area.",
+        "localContext": "Major port activity requires frequent professional cleaning.",
+        "nearbyAreas": [
+          "Savannah",
+          "Garden City",
+          "Pooler"
+        ]
+      },
+      {
+        "city": "Tybee Island",
+        "slug": "tybee-island-ga",
+        "state": "GA",
+        "content": "Coastal auto detailing specialists serving Tybee Island's unique environment. Our salt-neutralizing washes and protective coatings defend against constant ocean exposure. We remove sand from interiors and protect paint from corrosive sea air, helping vacationers and residents alike maintain their vehicles in beach conditions.",
+        "localContext": "Direct ocean exposure demands specialized protective treatments.",
+        "nearbyAreas": [
+          "Savannah",
+          "Wilmington Island",
+          "Thunderbolt"
+        ]
+      },
+      {
+        "city": "Wilmington Island",
+        "slug": "wilmington-island-ga",
+        "state": "GA",
+        "content": "Horizon Auto Detailing provides essential protection for Wilmington Island vehicles battling coastal elements. Our services focus on salt air protection, interior humidity control, and sand removal from beach trips. Regular detailing helps prevent the accelerated corrosion common in island environments.",
+        "localContext": "Island location means constant exposure to salt and humidity.",
+        "nearbyAreas": [
+          "Savannah",
+          "Tybee Island",
+          "Whitemarsh Island"
+        ]
+      },
+      {
+        "city": "Hinesville",
+        "slug": "hinesville-ga",
+        "state": "GA",
+        "content": "Serving Hinesville and Fort Stewart with military-grade vehicle care. We understand the unique needs of service members' vehicles, from frequent relocations to field exercises. Our detailing protects against red clay, pine pollen, and the wear-and-tear of military life.",
+        "localContext": "Military community requires durable, maintenance-friendly detailing solutions.",
+        "nearbyAreas": [
+          "Richmond Hill",
+          "Ludowici",
+          "Midway"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "coastal-ceramic-coating": "/images/service-coastal-ceramic-coating.webp",
+      "hurricane-evacuation-prep": "/images/service-hurricane-evacuation-prep.webp",
+      "luxury-dealership-pre-delivery": "/images/service-luxury-dealership-pre-delivery.webp",
+      "historic-district-interior-restoration": "/images/service-historic-district-interior-restoration.webp",
+      "paint-correction-savannah": "/images/service-paint-correction-savannah.webp"
+    },
+    "servicesResponsive": {
+      "coastal-ceramic-coating": {
+        "src": "/images/service-coastal-ceramic-coating.webp",
+        "srcset": "/images/service-coastal-ceramic-coating-400w.webp 400w, /images/service-coastal-ceramic-coating-800w.webp 800w, /images/service-coastal-ceramic-coating-1200w.webp 1200w, /images/service-coastal-ceramic-coating.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "hurricane-evacuation-prep": {
+        "src": "/images/service-hurricane-evacuation-prep.webp",
+        "srcset": "/images/service-hurricane-evacuation-prep-400w.webp 400w, /images/service-hurricane-evacuation-prep-800w.webp 800w, /images/service-hurricane-evacuation-prep-1200w.webp 1200w, /images/service-hurricane-evacuation-prep.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "luxury-dealership-pre-delivery": {
+        "src": "/images/service-luxury-dealership-pre-delivery.webp",
+        "srcset": "/images/service-luxury-dealership-pre-delivery-400w.webp 400w, /images/service-luxury-dealership-pre-delivery-800w.webp 800w, /images/service-luxury-dealership-pre-delivery-1200w.webp 1200w, /images/service-luxury-dealership-pre-delivery.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "historic-district-interior-restoration": {
+        "src": "/images/service-historic-district-interior-restoration.webp",
+        "srcset": "/images/service-historic-district-interior-restoration-400w.webp 400w, /images/service-historic-district-interior-restoration-800w.webp 800w, /images/service-historic-district-interior-restoration-1200w.webp 1200w, /images/service-historic-district-interior-restoration.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "paint-correction-savannah": {
+        "src": "/images/service-paint-correction-savannah.webp",
+        "srcset": "/images/service-paint-correction-savannah-400w.webp 400w, /images/service-paint-correction-savannah-800w.webp 800w, /images/service-paint-correction-savannah-1200w.webp 1200w, /images/service-paint-correction-savannah.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
